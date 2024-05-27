@@ -1,0 +1,36 @@
+@media(max-width:700px){
+    .clip{
+        display: none;
+    }
+    .socal-media-icon i{
+        display: none;
+    }
+    .Header-color{
+        
+    }
+}
+.clip{
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 4% 100%);
+    background-color:#3983D8;
+    padding: 3px;
+}
+.Header-color{
+    background-color: #C6E4EE;
+}
+a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #992315;
+    cursor: pointer;
+}
+/* .banner{
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(6 6 6 / 52%)), url(./assists/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+} */
