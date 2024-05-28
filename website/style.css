@@ -1,0 +1,92 @@
+@media(max-width:700px){
+    .clip{
+        display: none;
+    }
+    .socal-media-icon i{
+        display: none;
+    }
+    .Header-color{
+        
+    }
+    
+}
+.clip{
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 4% 100%);
+    background-color:#3983D8;
+    padding: 3px;
+}
+.Header-color{
+    background-color: #C6E4EE;
+}
+.logo img{
+    margin-right: 10px;
+}
+a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #992315;
+    cursor: pointer;
+}
+ .banner{
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(6 6 6 / 52%)), url(./assists/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+}
+.banner-des{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.gallary{
+    position: relative;
+   
+}
+.my-icon{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.6s;
+}
+.gallary:hover .my-icon{
+    opacity: 100;
+}
+.gallary:hover .bg{
+    background-color: #f1b315 !important;
+    .hover{
+        color:black !important;
+    }
+}
+.my-gold{
+    color: #f1b315 !important;
+}
+.bg{
+    background-color: #030F27;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction:column ;
+    justify-content: center;
+    transition: all 0.5s;
+}
+.staff-text{
+    background-color: #3983D8;
+    transition: all 0.5s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+.services:hover .staff-text{
+    background-color: #842B20;
+    color: #3983D8;
+}
+.img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
