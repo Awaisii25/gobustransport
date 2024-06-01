@@ -1,35 +1,47 @@
-@media(max-width:700px){
-    .res{
-        margin-top: -10px;
+.top-bar {
+    display: none;
+}
+.mobile-header-res{
+    display: none;
+}
+@media(max-width:1200px) {
+    .top-bar {
+        width: 100%;
+        display: block;
+        background-color: #83afe6 !important;
+        padding: 10px;
     }
-    .socal-media-icon i{
+    .header{
         display: none;
     }
-    li a{
-        font-size: 11px;
+    .mobile-header-res{
+        display: block;
     }
-    img{
-        margin-right: 125px !important;
-        margin-top: px;
+    .office-contact{
+        display: none;
     }
 }
-.clip{
+.clip {
     clip-path: polygon(0 0, 100% 1%, 100% 100%, 4% 100%);
-    background-color:#3983D8;
+    background-color: #3983D8;
     padding: 3px;
 }
-.Header-color{
-    background-color: #C6E4EE;
+
+.header {
+   background-color: #C6E4EE;
 }
-.logo img{
+
+.logo img {
     margin-right: 10px;
 }
+
 a{
     color: black;
     list-style: none;
     text-decoration: none;
 }
-ul li a:hover{
+
+ul li a:hover {
     color: #992315;
     cursor: pointer;
 }
@@ -37,6 +49,14 @@ ul li a:hover{
     width: 100%;
     height: 85vh;
     background-image: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(6 6 6 / 52%)), url(./assists/services\ banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+}
+.about-banner{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to left, rgb(255 255 255 / 25%), rgb(6 6 6 / 80%)), url(./assists/aboutus.jpg);
     background-position: center;
     background-size: cover;
     padding-top: 1px;
@@ -53,6 +73,7 @@ ul li a:hover{
     height: 80vh;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 .gallary{
     position: relative;
